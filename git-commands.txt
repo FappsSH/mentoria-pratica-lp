@@ -1,0 +1,40 @@
+# 📋 COMANDOS PARA SUBIR NO GITHUB
+
+## 1. Crie um novo repositório no GitHub
+- Vá em: https://github.com/new
+- Nome sugerido: mentoria-pratica-lp
+- Descrição: Landing page para Mentoria Prática da Fapps
+- Deixe como Public
+- NÃO inicialize com README (já temos um)
+- Clique em "Create repository"
+
+## 2. No seu terminal, execute:
+
+# Entre na pasta do projeto
+cd caminho/para/sua/pasta
+
+# Inicialize o git
+git init
+
+# Adicione todos os arquivos
+git add .
+
+# Faça o primeiro commit
+git commit -m "Initial commit: Landing page Mentoria Prática"
+
+# Conecte com o repositório remoto (substitua SEU-USUARIO)
+git remote add origin https://github.com/SEU-USUARIO/mentoria-pratica-lp.git
+
+# Renomeie a branch para main
+git branch -M main
+
+# Faça o push
+git push -u origin main
+
+## 3. Ative o GitHub Pages
+- Vá em Settings > Pages
+- Source: Deploy from a branch
+- Branch: main / (root)
+- Save
+
+Pronto! Sua página estará no ar em alguns segundos! 🎉
